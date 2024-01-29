@@ -1,0 +1,50 @@
+@import './variable.scss';
+
+
+
+
+
+.heading_1{
+    font-family: $main-family;
+    font-weight: 500;
+}
+
+// header main fonts in hero Section 
+.main_headline{
+    font-size: 100px;
+    font-family: $main-family;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.chipStyle{
+    font-family: $main-family;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+
+
+.heading_3{
+    font-family: $main-family;
+    font-weight: 600;
+    font-size: 20px;
+}
+.heading_4{
+    font-family: $main-family;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.heading_5{
+    font-family: $main-family;
+    font-weight: 700;
+    font-size: 20px;
+}
+.typo_style{
+    font-family: $main-family;
+    font-weight: 400 !important;
+    font-size: 16px;
+
+}

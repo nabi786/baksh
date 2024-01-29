@@ -1,0 +1,76 @@
+
+// importing main file that has variables 
+@import '../theme/styles/variable.scss';
+
+// logo desing
+.Logo{
+
+    font-weight: 700;
+    font-size: 25px;
+    color: $fourth-color;
+    font-family: $main-family;
+    display: flex;
+    // border: 1px solid red;
+    width: 90px;
+    position: relative;
+    .logoDot{
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        background-color: $secondary-color;
+        position: absolute;
+        bottom: 9px;
+        right: 0px;
+    }
+}
+
+
+
+// stying navigation
+.navBox{   
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    // border: 1px solid red;
+    width: 100%;
+    font-weight: 600;
+
+    .item{
+        // border: 1px solid red;
+        padding: 10px 20px;
+        margin: 0px 10px;
+        &:hover{
+            color: $secondary-color;
+            cursor: pointer;
+        }
+    }
+
+    
+
+}
+
+
+.navBar{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-between !important;
+    border-bottom: 1px solid rgb(236, 230, 230);
+    padding: 20px 0px;
+}
+
+.navBox2{
+    // border: 1px solid red;
+    background-color: white;
+    flex-direction: column;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px !important;
+    padding: 0px !important;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.09);
+    z-index: 1;
+}
+
+
+
